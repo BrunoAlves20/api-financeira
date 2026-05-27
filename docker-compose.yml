@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:15
+    container_name: postgres-api-financeira
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: Bu2605
+      POSTGRES_DB: api_financeira
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
