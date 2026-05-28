@@ -11,5 +11,6 @@
             "username": "admin",
             "password": "Bu2605"
         }
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
